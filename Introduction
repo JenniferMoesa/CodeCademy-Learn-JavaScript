@@ -1,5 +1,5 @@
 VARIABLES
-Variables
+
 In programming, a variable is a container for a value. You can think of variables as little containers for information that live in a computer’s memory. 
 Information stored in variables, such as a username, account number, or even personalized greeting can then be found in memory.
 
@@ -261,6 +261,7 @@ console.log('I own a pet ' + myPet + '.');
 // Output: 'I own a pet armadillo.'
 In the example above, we assigned the value 'armadillo' to the myPet variable. 
 On the second line, the + operator is used to combine three strings: 'I own a pet', the value saved to myPet, and '.'. 
+
 We log the result of this concatenation to the console as:
 
 I own a pet armadillo.
@@ -276,7 +277,36 @@ console.log("My favorite animal:" + favoriteAnimal); // Output: My favorite anim
 
 ----------------------------------------------------------------------------------------------------------------------------
 
+STRING INTERPOLATIONS (interpolatie = invoeging van woorden of getallen)
 
+In the ES6 version of JavaScript, we can insert, or interpolate, variables into strings using template literals. 
+Check out the following example where a template literal is used to log strings together:
 
+const myPet = 'armadillo';
+console.log(`I own a pet ${myPet}.`); // Output: I own a pet armadillo.
+
+Notice that:
+
+a template literal is wrapped by backticks ` (this key is usually located on the top of your keyboard, left of the 1 key).
+Inside the template literal, you’ll see a placeholder, ${myPet}. The value of myPet is inserted into the template literal.
+When we interpolate `I own a pet ${myPet}.`, the output we print is the string: 'I own a pet armadillo.'
+One of the biggest benefits to using template literals is the readability of the code. Using template literals, you can more easily tell what the new string will be. You also don’t have to worry about escaping double quotes or single quotes.
+
+Instructions
+1.
+Create a variable called myName and assign it your name.
+
+Checkpoint 2 Passed
+
+Stuck? Get a hint
+2.
+Create a variable called myCity and assign it your favorite city’s name.
+
+Checkpoint 3 Passed
+3.
+Use a single template literal to interpolate your variables into the sentence below. Use console.log() to print your sentence to the console in the following format:
+
+My name is NAME. My favorite city is CITY.
+Replace NAME and CITY in the string above by interpolating the values saved to myName and myCity.
 
 
