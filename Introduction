@@ -329,17 +329,8 @@ console.log(typeof unknown3); // Output: boolean
 Let’s break down the first example. Since the value unknown1 is 'foo', a string, typeof unknown1 will return 'string'.
 
 Instructions
-1.
-Use console.log() to print the typeof newVariable.
+1. Use console.log() to print the typeof newVariable.
 
-Checkpoint 2 Passed
+2. Great, now let’s check what happens if we reassign the variable. Below the console.log() statement, reassign newVariable to 1.
 
-Stuck? Get a hint
-2.
-Great, now let’s check what happens if we reassign the variable. Below the console.log() statement, reassign newVariable to 1.
-
-Checkpoint 3 Passed
-
-Stuck? Get a hint
-3.
-Since you assigned this new value to newVariable, it has a new type! On the line below your reassignment, use console.log() to print typeof newVariable again.
+3. Since you assigned this new value to newVariable, it has a new type! On the line below your reassignment, use console.log() to print typeof newVariable again.
