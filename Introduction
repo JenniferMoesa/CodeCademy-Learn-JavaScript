@@ -314,7 +314,8 @@ console.log(`My name is ${myName}. My favorite city is ${myCity}.`) // Outpuy: M
 
 TYPEOF OPERATOR
 
-While writing code, it can be useful to keep track of the data types of the variables in your program. If you need to check the data type of a variable’s value, you can use the typeof operator.
+While writing code, it can be useful to keep track of the data types of the variables in your program. 
+If you need to check the data type of a variable’s value, you can use the typeof operator.
 
 The typeof operator checks the value to its right and returns, or passes back, a string of the data type.
 
@@ -334,3 +335,17 @@ Instructions
 2. Great, now let’s check what happens if we reassign the variable. Below the console.log() statement, reassign newVariable to 1.
 
 3. Since you assigned this new value to newVariable, it has a new type! On the line below your reassignment, use console.log() to print typeof newVariable again.
+
+let newVariable = 'Playing around with typeof.';
+console.log(typeof newVariable);
+newVariable = 1;
+console.log(typeof newVariable);
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
