@@ -147,10 +147,13 @@ console.log(20.49)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-Arithmetic Operators
+ARITHMETIC OPERATORS
+
 Basic arithmetic often comes in handy when programming.
 
-An operator is a character that performs a task in our code. JavaScript has several built-in arithmetic operators, that allow us to perform mathematical calculations on numbers. These include the following operators and their corresponding symbols:
+An operator is a character that performs a task in our code. 
+JavaScript has several built-in arithmetic operators, that allow us to perform mathematical calculations on numbers.
+These include the following operators and their corresponding symbols:
 
 Add: +
 Subtract: -
@@ -163,40 +166,83 @@ console.log(3 + 4); // Prints 7
 console.log(5 - 1); // Prints 4
 console.log(4 * 2); // Prints 8
 console.log(9 / 3); // Prints 3
-Note that when we console.log() the computer will evaluate the expression inside the parentheses and print that result to the console. If we wanted to print the characters 3 + 4, we would wrap them in quotes and print them as a string.
+
+Note that when we console.log() the computer will evaluate the expression inside the parentheses and print that result to the console. 
+If we wanted to print the characters 3 + 4, we would wrap them in quotes and print them as a string.
 
 console.log(11 % 3); // Prints 2
 console.log(12 % 3); // Prints 0
-The remainder operator, sometimes called modulo, returns the number that remains after the right-hand number divides into the left-hand number as many times as it evenly can: 11 % 3 equals 2 because 3 fits into 11 three times, leaving 2 as the remainder.
+
+The remainder operator, sometimes called modulo, 
+returns the number that remains after the right-hand number divides into the left-hand number as many times as it evenly can: 
+11 % 3 equals 2 because 3 fits into 11 three times, leaving 2 as the remainder.
 
 Instructions
-1.
-Inside of a console.log(), add 3.5 to your age.
+1. Inside of a console.log(), add 3.5 to your age.
 
 This is the age you’ll be when we start sending people to live on Mars.
 
-Checkpoint 2 Passed
-
-Stuck? Get a hint
-2.
-On a new line write another console.log(). Inside the parentheses, take the current year and subtract 1969.
+2. On a new line write another console.log(). Inside the parentheses, take the current year and subtract 1969.
 
 The answer is how many years it’s been since the 1969 moon landing.
 
-Checkpoint 3 Passed
+3. Create another console.log(). Inside the parentheses divide 65 by 240.
 
-Stuck? Get a hint
-3.
-Create another console.log(). Inside the parentheses divide 65 by 240.
-
-Checkpoint 4 Passed
-
-Stuck? Get a hint
-4.
-Create one last console.log(). Inside the parentheses, multiply 0.2708 by 100.
+4. Create one last console.log(). Inside the parentheses, multiply 0.2708 by 100.
 
 That’s the percent of the sun that is made up of helium. Assuming we could stand on the sun, we’d all sound like chipmunks!
 
+console.log(42 + 3.5);
+console.log(2021 - 1969);
+console.log(65 / 240);
+console.log(0.2708 * 100);
+
+console
+45.5
+52
+0.2708333333333333
+27.08
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+STRING CONTACENATION
+
+Operators aren’t just for numbers! When a + operator is used on two strings, it appends the right string to the left string:
+
+console.log('hi' + 'ya'); // Prints 'hiya'
+console.log('wo' + 'ah'); // Prints 'woah'
+console.log('I love to ' + 'code.')
+// Prints 'I love to code.'
+
+This process of appending one string to another is called concatenation. 
+Notice in the third example we had to make sure to include a space at the end of the first string. 
+The computer will join the strings exactly, so we needed to make sure to include the space we wanted between the two strings.
+
+console.log('front ' + 'space'); 
+// Prints 'front space'
+console.log('back' + ' space'); 
+// Prints 'back space'
+console.log('no' + 'space'); 
+// Prints 'nospace'
+console.log('middle' + ' ' + 'space'); 
+// Prints 'middle space'
+
+Just like with regular math, we can combine, or chain, our operations to get a final result:
+
+console.log('One' + ', ' + 'two' + ', ' + 'three!'); 
+// Prints 'One, two, three!'
+
+Instructions
+1. Inside a console.log() statement, concatenate the two strings 'Hello' and 'World'.
+
+Note: You should concatenate the two strings exactly (without introducing any additional characters).
+
+2. We left off the space last time. Create a second console.log() statement in which you concatenate the strings 'Hello' and 'World',
+but this time make sure to also include a space (' ') between the two words.
+
+console.log('Hello' + 'World'); // Output: HelloWorld
+console.log('Hello' + ' ' + 'World'); // Output: Hello World
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------
